@@ -72,6 +72,7 @@ jobs:
     - name: Update dependency graph
       uses: advanced-security/maven-dependency-submission-action@v3
 
+  #build
   build:
     needs: [maven_test]  # Enforces that maven_test runs first
     
