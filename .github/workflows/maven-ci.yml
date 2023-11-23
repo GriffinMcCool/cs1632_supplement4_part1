@@ -76,8 +76,6 @@ jobs:
 
     needs: [maven_test]  # Enforces that maven_test runs first
     
-    name: Build and analyze
-    
     runs-on: ubuntu-latest
 
     steps:
